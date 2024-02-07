@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stopwatch</title>
+<link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+<div class="container">
+  <h1>Stopwatch</h1> <!-- Heading for the stopwatch -->
+  <div class="stopwatch">
+    <h2 id="display">00:00:00</h2> <!-- Display for the timer -->
+    <div class="controls">
+      <button id="startStop" onclick="startStop()">Start</button>
+      <button onclick="lap()">Lap</button>
+      <button onclick="pause()">Pause</button> <!-- Button to pause the timer -->
+      <button onclick="reset()">Reset</button>
+    </div>
+    <ul id="laps"></ul> <!-- List to display lap times -->
+  </div>
+</div>
+<script src="stopwatch.js"></script>
+</body>
+</html>
