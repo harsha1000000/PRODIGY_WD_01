@@ -1,2 +1,2 @@
-# PRODIGY_WD_01
-Responsive Landing Page
+# PRODIGY_WD_02
+Stopwatch Web Application
